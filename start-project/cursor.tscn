@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cinc2avibc4ok"]
+
+[ext_resource type="Script" path="res://Cursor.gd" id="1_fdqs4"]
+[ext_resource type="Texture2D" uid="uid://ds705p1d4d4l" path="res://GameBoard/Cursor/menu_selection_arrow.png" id="2_c8kpy"]
+
+[node name="Cursor" type="Node2D"]
+script = ExtResource("1_fdqs4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(67, -64)
+rotation = -0.776055
+texture = ExtResource("2_c8kpy")
+
+[node name="Timer" type="Timer" parent="."]
+one_shot = true
