@@ -24,6 +24,10 @@ window/size/viewport_height=720
 
 project/assembly_name="Tactical RPG Movement (start)"
 
+[editor]
+
+movie_writer/movie_file="C:/Users/220bx/Desktop/godot-2d-tactical-rpg-movement-main/clips/sprite_issue.avi"
+
 [input]
 
 ui_cancel={
