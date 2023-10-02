@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dxwqttfisuwst"]
+[gd_scene load_steps=9 format=3 uid="uid://dxwqttfisuwst"]
 
 [ext_resource type="PackedScene" uid="uid://doip10ax4yce7" path="res://Background/Map.tscn" id="1_ach12"]
 [ext_resource type="Script" path="res://GameBoard.gd" id="2_2q18t"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://ba3nqxh1sr7fu" path="res://unit_overlay.tscn" id="3_bhl5x"]
 [ext_resource type="PackedScene" uid="uid://cinc2avibc4ok" path="res://cursor.tscn" id="4_72rso"]
 [ext_resource type="PackedScene" uid="uid://cb36756jiq17c" path="res://unit_path.tscn" id="4_hg2ln"]
+[ext_resource type="Texture2D" uid="uid://3xwo65h25olv" path="res://Units/bear.png" id="7_4dpix"]
 
 [node name="Main" type="Node2D"]
 
@@ -26,4 +27,12 @@ position = Vector2(320, 240)
 skin = ExtResource("3_b1j28")
 move_speed = 200.0
 
+[node name="Unit2" parent="GameBoard" instance=ExtResource("2_m0jpr")]
+position = Vector2(480, 240)
+skin = ExtResource("7_4dpix")
+move_speed = 200.0
+
 [node name="Cursor" parent="GameBoard" instance=ExtResource("4_72rso")]
+
+[connection signal="accept_pressed" from="GameBoard/Cursor" to="GameBoard" method="_on_cursor_accept_pressed"]
+[connection signal="moved" from="GameBoard/Cursor" to="GameBoard" method="_on_cursor_moved"]

@@ -6,6 +6,10 @@
 class_name Unit
 extends Path2D
 
+@onready var _sprite: Sprite2D = $PathFollow2D/Sprite
+@onready var _anim_player: AnimationPlayer = $AnimationPlayer
+@onready var _path_follow: PathFollow2D = $PathFollow2D
+
 # Preload the `Grid.tres` resource you created in the previous part.
 @export var grid: Resource = preload("res://Grid.tres")
 
@@ -73,9 +77,7 @@ var _is_walking := false :
 	get:
 		return _is_walking
 
-@onready var _sprite: Sprite2D = $PathFollow2D/Sprite
-@onready var _anim_player: AnimationPlayer = $AnimationPlayer
-@onready var _path_follow: PathFollow2D = $PathFollow2D
+
 
 # Now, here’s the smooth movement logic.
 
@@ -99,14 +101,6 @@ func _ready() -> void:
 		# We create the curve resource here because creating it in the editor
 		# prevents us from moving the unit.
 	curve = Curve2D.new()
-	
-#	var points := [
-#		Vector2(2, 2),
-#		Vector2(2, 5),
-#		Vector2(8, 5),
-#		Vector2(8, 7),
-#	]
-#	walk_along(PackedVector2Array(points))
 
 # When active, moves the unit along its `curve` with the help of the PathFollow2D node.
 func _process(delta: float) -> void:
@@ -126,7 +120,7 @@ func _process(delta: float) -> void:
 		# target grid cell, and we clear the curve. In the process loop, we only
 		# moved the sprite, and not the unit itself. The following lines move the
 		# unit in a way that's transparent to the player.
-		_path_follow.h_offset = 0.0
+		_path_follow.progress = 0.0
 		position = grid.calculate_map_position(cell)
 		curve.clear_points()
 		# Finally, we emit a signal. We'll use this one with the game board.
