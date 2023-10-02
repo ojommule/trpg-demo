@@ -31,6 +31,7 @@ extends Path2D
 			# callback ended.
 			await self.ready
 		_sprite.texture = value
+		_original_color = _sprite.modulate
 	get:
 		return skin
 
@@ -47,6 +48,8 @@ extends Path2D
 
 # The unit's move speed in pixels, when it's moving along a path.
 @export var move_speed := 600.0
+
+var _original_color : Color
 
 # Coordinates of the grid's cell the unit is on.
 # When changing the `cell`'s value, we don't want to allow coordinates outside
@@ -66,6 +69,7 @@ var is_selected := false :
 			_anim_player.play("selected")
 		else:
 			_anim_player.play("idle")
+			_sprite.modulate = _original_color
 	get:
 		return is_selected
 
