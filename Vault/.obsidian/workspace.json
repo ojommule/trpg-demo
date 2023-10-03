@@ -11,8 +11,12 @@
             "id": "bfd5e0024a3c94f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Ancient RPG/Characters/The Gods/Hephaestus.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#person",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "ae71a897cbc7c40a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Ancient RPG/Characters/The Gods/Hephaestus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Ancient RPG/Characters/The Gods/Hephaestus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Ancient RPG/Characters/The Gods/Hephaestus.md"
+              }
             }
           },
           {
@@ -155,8 +171,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8efc255883f5540b",
+  "active": "3af2f54e57c0c713",
   "lastOpenFiles": [
+    "Ancient RPG/Characters/The Gods/Hera.md",
+    "Ancient RPG/Characters/The Gods/Athena.md",
+    "Ancient RPG/Characters/The Gods/Demeter.md",
+    "Ancient RPG/Characters/The Gods/Artemis.md",
+    "Ancient RPG/Characters/The Gods/Apollo.md",
+    "Ancient RPG/Characters/The Gods/Poseidon.md",
+    "Ancient RPG/Characters/The Gods/Hades.md",
+    "Ancient RPG/Characters/The Demigods/Pluto.md",
+    "Ancient RPG/Characters/The Demigods/Neptune.md",
+    "Ancient RPG/Characters/The Demigods/Venus.md",
+    "Ancient RPG/Characters/The Demigods/Jove.md",
+    "Ancient RPG/Characters/The Demigods/Minerva.md",
     "Untitled.canvas",
     "symbols-1.png",
     "Ancient RPG/Mechanics/The Vibe.md",
@@ -165,9 +193,7 @@
     "Daily/02-10-23.md",
     "Ancient RPG/The Gods.md",
     "Ancient RPG/Characters/The Demigods/Juno.md",
-    "Ancient RPG/Characters/The Gods/Hera.md",
     "Ancient RPG/Characters/The Gods/Zeus.md",
-    "Ancient RPG/Characters/The Gods/Apollo.md",
     "Ancient RPG/Characters/The Gods/Hermes.md",
     "Ancient RPG/Characters/The Gods/Dionysis.md",
     "Ancient RPG/Characters/The Gods/Ares.md",
@@ -179,19 +205,10 @@
     "Daily",
     "Ancient RPG/Untitled",
     "Ancient RPG/Mechanics",
-    "Ancient RPG/Characters/The Demigods/Minerva.md",
     "Ancient RPG/Characters/The Demigods",
     "Ancient RPG/Characters/Untitled.canvas",
     "Ancient RPG/Characters/The Gods",
     "Ancient RPG/Characters",
-    "Ancient RPG",
-    "Ancient RPG/Characters/The Gods/Demeter.md",
-    "Ancient RPG/Characters/The Gods/Hades.md",
-    "Ancient RPG/Characters/The Gods/Artemis.md",
-    "Ancient RPG/Characters/The Gods/Aphrodite.md",
-    "Ancient RPG/Characters/The Gods/Poseidon.md",
-    "Ancient RPG/Characters/The Gods/Athena.md",
-    "Ancient RPG/Characters/The Demigods/Jove.md",
-    "Ancient RPG/Characters/The Demigods/Venus.md"
+    "Ancient RPG"
   ]
 }
