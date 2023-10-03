@@ -43,6 +43,7 @@ _data = {
 }
 
 [node name="Unit" type="Path2D"]
+z_index = 1
 script = ExtResource("1_xqraj")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="."]
@@ -51,6 +52,7 @@ loop = false
 
 [node name="Shadow" type="Sprite2D" parent="PathFollow2D"]
 modulate = Color(0.0980392, 0.0980392, 0.0980392, 0.788235)
+position = Vector2(0, 30)
 texture = ExtResource("2_nm1o3")
 
 [node name="Sprite" type="Sprite2D" parent="PathFollow2D"]

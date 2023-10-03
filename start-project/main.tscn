@@ -25,11 +25,13 @@ script = ExtResource("2_2q18t")
 [node name="Unit" parent="GameBoard" instance=ExtResource("2_m0jpr")]
 position = Vector2(320, 240)
 skin = ExtResource("3_b1j28")
+skin_offset = Vector2(0, -5)
 move_speed = 200.0
 
 [node name="Unit2" parent="GameBoard" instance=ExtResource("2_m0jpr")]
 position = Vector2(480, 240)
 skin = ExtResource("7_4dpix")
+skin_offset = Vector2(0, -15)
 move_speed = 200.0
 
 [node name="Cursor" parent="GameBoard" instance=ExtResource("4_72rso")]
