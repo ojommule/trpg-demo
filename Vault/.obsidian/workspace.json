@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "606503419b6e3b64",
+    "type": "split",
+    "children": [
+      {
+        "id": "84476acc65969a34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfd5e0024a3c94f4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36ceb5b7cf7fa408",
+    "type": "split",
+    "children": [
+      {
+        "id": "945d101c731316a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3af2f54e57c0c713",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "14716c750ca879b0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#person",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ab00dc7f1ea2935",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26c0d4fe01213b60",
+    "type": "split",
+    "children": [
+      {
+        "id": "9af5a3d0d0208ca5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fca4ca6c2ba70f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9f55683558d943a4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7a6f858de3a4cbad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9464821bda45df5e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "8efc255883f5540b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c53b388dc4bd8182",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "8efc255883f5540b",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "symbols-1.png",
+    "Ancient RPG/Mechanics/The Vibe.md",
+    "Ancient RPG/Mechanics/The Demigods.md",
+    "Ancient RPG/The Story.md",
+    "Daily/02-10-23.md",
+    "Ancient RPG/The Gods.md",
+    "Ancient RPG/Characters/The Demigods/Juno.md",
+    "Ancient RPG/Characters/The Gods/Hera.md",
+    "Ancient RPG/Characters/The Gods/Zeus.md",
+    "Ancient RPG/Characters/The Gods/Apollo.md",
+    "Ancient RPG/Characters/The Gods/Hermes.md",
+    "Ancient RPG/Characters/The Gods/Dionysis.md",
+    "Ancient RPG/Characters/The Gods/Ares.md",
+    "Ancient RPG/Characters/The Gods/Hephaestus.md",
+    "Ancient RPG/Characters/The Demigods/Mars.md",
+    "Daily/14-03-23.md",
+    "Daily/11-03-23.md",
+    "symbols.pdf",
+    "Daily",
+    "Ancient RPG/Untitled",
+    "Ancient RPG/Mechanics",
+    "Ancient RPG/Characters/The Demigods/Minerva.md",
+    "Ancient RPG/Characters/The Demigods",
+    "Ancient RPG/Characters/Untitled.canvas",
+    "Ancient RPG/Characters/The Gods",
+    "Ancient RPG/Characters",
+    "Ancient RPG",
+    "Ancient RPG/Characters/The Gods/Demeter.md",
+    "Ancient RPG/Characters/The Gods/Hades.md",
+    "Ancient RPG/Characters/The Gods/Artemis.md",
+    "Ancient RPG/Characters/The Gods/Aphrodite.md",
+    "Ancient RPG/Characters/The Gods/Poseidon.md",
+    "Ancient RPG/Characters/The Gods/Athena.md",
+    "Ancient RPG/Characters/The Demigods/Jove.md",
+    "Ancient RPG/Characters/The Demigods/Venus.md"
+  ]
+}
