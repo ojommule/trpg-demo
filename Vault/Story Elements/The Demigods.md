@@ -1,4 +1,6 @@
 Children of [[The Gods]], their abilities and weapons
+- [[Ceres]] - Scythe
+
 - [[Minerva]] - you can see where the enemies are going to move (before trial), enemy debuff (speed and damage) shield weapon, support mage buff crowd control tank abilities
 
 - [[Jove]] - thunder skill tree, spear weapon

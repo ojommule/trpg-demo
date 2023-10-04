@@ -1,9 +1,9 @@
 {
 	"nodes":[
-		{"type":"file","file":"Ancient RPG/The Story.md","id":"e2fd9c3dba4e0673","x":-2900,"y":-47800,"width":400,"height":400},
-		{"type":"file","file":"Ancient RPG/The Gods.md","id":"651bd353fc4a83bf","x":-3420,"y":-47800,"width":400,"height":400},
-		{"type":"file","file":"Ancient RPG/Mechanics/The Vibe.md","id":"25f3fee5f92468e6","x":-2380,"y":-47800,"width":400,"height":400},
-		{"type":"file","file":"symbols-1.png","id":"402c5351da3a4055","x":-3252,"y":-48160,"width":465,"height":204}
+		{"type":"file","file":"Story Elements/The Gods.md","id":"651bd353fc4a83bf","x":-3880,"y":-47920,"width":360,"height":520},
+		{"type":"file","file":"Game Elements/The Loop.md","id":"25f3fee5f92468e6","x":-2380,"y":-47800,"width":400,"height":400},
+		{"type":"file","file":"symbols-1.png","id":"402c5351da3a4055","x":-3932,"y":-48320,"width":465,"height":204},
+		{"type":"file","file":"Story Elements/The Story.md","id":"e2fd9c3dba4e0673","x":-3320,"y":-48320,"width":760,"height":920}
 	],
 	"edges":[
 		{"id":"b92733fcf87488e4","fromNode":"651bd353fc4a83bf","fromSide":"top","toNode":"402c5351da3a4055","toSide":"bottom"}
