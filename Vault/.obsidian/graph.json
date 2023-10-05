@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "path:\"Game Elements\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:god",
@@ -39,13 +39,13 @@
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.7,
-  "nodeSizeMultiplier": 1.01875,
+  "nodeSizeMultiplier": 1.171875,
   "lineSizeMultiplier": 1.45260416666667,
   "collapse-forces": true,
-  "centerStrength": 0.348958333333333,
-  "repelStrength": 6.77083333333333,
+  "centerStrength": 0.177083333333333,
+  "repelStrength": 6.14583333333333,
   "linkStrength": 1,
-  "linkDistance": 324,
+  "linkDistance": 500,
   "scale": 0.7132754626224425,
   "close": true
 }
