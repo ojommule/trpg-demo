@@ -10,6 +10,7 @@ const DIRECTIONS = [Vector2.LEFT,Vector2.RIGHT,Vector2.UP,Vector2.DOWN]
 var _units = {}
 var _active_unit : Unit
 var _walkable_cells = []
+var _attackable_cells = []
 
 func _ready():
 	_reinitialize()
@@ -27,8 +28,9 @@ func _reinitialize():
 func is_occupied(cell: Vector2) -> bool:
 	return true if _units.has(cell) else false
 
-func _flood_fill(cell: Vector2, max_distance: int) -> Array:
-	var array = []
+func _flood_fill(cell: Vector2, max_distance: int) -> Dictionary:
+	# key is vector2 cell and value is state
+	var array = {}
 	# in a stack we store every cell we want to apply the flood fill algorithm to
 	var stack = [cell]
 	# then we loop over cells in the stack
@@ -51,11 +53,14 @@ func _flood_fill(cell: Vector2, max_distance: int) -> Array:
 			continue
 		
 		# all conditions met, then fill the current cell by storing it in array
-		array.append(current)
+		# array.append(current)
+		array[current] = "moveable"
 		# now look at neighbors. if they aren't occupied and we havent visited them already, add them to the stack
 		for direction in DIRECTIONS:
 			var coordinates: Vector2 = current + direction
 			if is_occupied(coordinates):
+				if "enemy" in _units[coordinates].get_groups():
+					array[coordinates] = "enemy"
 				continue
 			if coordinates in array:
 				continue
@@ -63,7 +68,20 @@ func _flood_fill(cell: Vector2, max_distance: int) -> Array:
 	return array
 
 func get_walkable_cells(unit: Unit) -> Array:
-	return _flood_fill(unit.cell,unit.move_range)
+	var array = []
+	var dict = _flood_fill(unit.cell,unit.move_range)
+	for value in dict:
+		if dict[value] == "moveable":
+			array.append(value)
+	return array
+
+func get_attackable_cells(unit: Unit) -> Array:
+	var array = []
+	var dict = _flood_fill(unit.cell,unit.move_range)
+	for value in dict:
+		if dict[value] == "enemy":
+			array.append(value)
+	return array
 
 # Selects the unit in the cell if there is one, sets it active, draws the walkable cells and interactive move path
 func _select_unit(cell: Vector2):
@@ -74,7 +92,10 @@ func _select_unit(cell: Vector2):
 	_active_unit = _units[cell]
 	_active_unit.is_selected = true
 	_walkable_cells = get_walkable_cells(_active_unit)
-	_unit_overlay.draw(_walkable_cells)
+	#might need for later
+	_attackable_cells = get_attackable_cells(_active_unit)
+	_unit_overlay.draw_walkable_cells(_walkable_cells)
+	_unit_overlay.draw_attackable_cells(_attackable_cells)
 	_unit_path.initialize(_walkable_cells)
 
 # deselects the active unit, clearing overlay and path drawing

@@ -1,10 +1,10 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "path:\"Game Elements\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [
     {
@@ -38,14 +38,14 @@
   ],
   "collapse-display": true,
   "showArrow": true,
-  "textFadeMultiplier": -0.7,
-  "nodeSizeMultiplier": 1.171875,
-  "lineSizeMultiplier": 1.45260416666667,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.37604166666667,
+  "lineSizeMultiplier": 2.80520833333333,
   "collapse-forces": true,
   "centerStrength": 0.177083333333333,
   "repelStrength": 6.14583333333333,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.7132754626224425,
+  "scale": 0.7132754626224428,
   "close": true
 }

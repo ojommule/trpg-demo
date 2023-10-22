@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22ad6d1bc1d19375",
+        "id": "4109bb8529853c92",
         "type": "tabs",
         "children": [
           {
-            "id": "fb44cb727b76104c",
+            "id": "587f5bbc9b14a4c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Elements/Gamestates/Combat/Cursor.md",
+                "file": "Game Elements/Gamestates/Combat/Combat Board.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "4109bb8529853c92",
+        "id": "6695aac9fe3bd4e7",
         "type": "tabs",
         "children": [
           {
-            "id": "587f5bbc9b14a4c8",
+            "id": "1981dd8395fd21a6",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "26c0d4fe01213b60",
@@ -182,26 +182,26 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "587f5bbc9b14a4c8",
+  "active": "1981dd8395fd21a6",
   "lastOpenFiles": [
+    "Game Elements/Gamestates/Combat/Combat Board.md",
+    "Game Elements/Gamestates/Combat/Unit Path.md",
+    "Game Elements/Gamestates/Combat/Unit Overlay.md",
+    "Game Elements/Gamestates/Combat/Unit.md",
+    "Game Elements/Gamestates/Combat/Pathfinder.md",
+    "Game Elements/Gamestates/Combat/Grid.md",
     "Game Elements/Gamestates/Combat/Cursor.md",
-    "Story Elements/Characters/The Demigods/The Demigods.md",
     "Story Elements/The Story.md",
+    "Story Elements/Characters/The Demigods/The Demigods.md",
     "Story Elements/Characters/The Gods/The Gods.md",
     "Game Elements/Gamestates/Exploration/Overworlds",
     "Game Elements/Gamestates/Exploration/Dungeons",
-    "Game Elements/Gamestates/Combat/Grid.md",
-    "Game Elements/Gamestates/Combat/Combat Board.md",
-    "Game Elements/Gamestates/Combat/Pathfinder.md",
-    "Game Elements/Gamestates/Combat/Unit.md",
     "Slideshow Trial.md",
     "Untitled.canvas",
     "Story Elements/Characters/The Gods/Demeter.md",
     "Story Elements/Characters/The Demigods/Ceres.md",
     "Game Elements/The Loop.md",
     "Story Elements/Characters/The Demigods/Diana.md",
-    "Game Elements/Gamestates/Combat/Unit Overlay.md",
-    "Game Elements/Gamestates/Combat/Unit Path.md",
     "Game Elements/Gamestates/Combat/Gameboard.md",
     "Game Elements/Gamestates/Dialogue",
     "Game Elements/Gamestates/Inventory & Shop",
